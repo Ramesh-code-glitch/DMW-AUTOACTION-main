@@ -15,6 +15,9 @@ import BodyPartsPrice from "../page/SubCatagory/Body/BodyPanel/bodyshellprice"
 import EandL from "../page/SubCatagory/Electrics&Lighting/EandL/E&L"
 import AlarmimmobilisersHorns from "../page/SubCatagory/Electrics&Lighting/EandL/AlarmimmobilisersHorns"
 import AlarmPartsPrice from "../page/SubCatagory/Electrics&Lighting/EandL/AlarmPartsPrice"
+import CandH from "../page/SubCatagory/Cooling&Heating/C&H"
+import FanAndParts from "../page/SubCatagory/Cooling&Heating/FanAndParts"
+import FanAndPartsPrice from "../page/SubCatagory/Cooling&Heating/FanAndPartsPrice"
 
 
 const Routing = () => {
@@ -36,6 +39,9 @@ const Routing = () => {
         <Route Component={EandL} path="/EandL_subcatagory" element={<EandL />} />
         <Route Component={AlarmimmobilisersHorns} path="/EandL_AlarmimmobilisersHorns" element={<AlarmimmobilisersHorns />} />
         <Route Component={AlarmPartsPrice} path="/EandL_AlarmPartsPrice" element={<AlarmPartsPrice />} />
+        <Route Component={CandH} path="/CandH_subcatagory" element={<CandH />} />
+        <Route Component={FanAndParts} path="/CandH_FanAndParts" element={<FanAndParts />} />
+        <Route Component={FanAndPartsPrice} path="/CandH_FanAndPartsPrice" element={<FanAndPartsPrice />} />
 
       </Routes>
     </>

@@ -21,7 +21,7 @@ const FeatureCategories = () => {
     {
       name: 'Cooling & Heating',
       imageUrl: 'https://www.selectusedparts.com/assets/images/category-image/1651555681-Cooling-and-Heating.png',
-      link: ' ',
+      link: 'http://localhost:5173/#/CandH_subcatagory',
     },
     {
       name: 'Dash board assy, Interior fittings, Air bag kits',

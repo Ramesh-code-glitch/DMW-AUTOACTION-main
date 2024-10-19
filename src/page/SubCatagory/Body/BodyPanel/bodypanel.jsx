@@ -1,5 +1,5 @@
 import React from 'react';
-import './bodypanel.css';
+import "../../Break/break.css";
 import Navbar from "../../../../component/Navbar/Navbar";
 import Footer from '../../../../component/Footer/Footer';
 
@@ -52,7 +52,7 @@ const PartsBrake = () => {
     <div>
     < Navbar/>
     <section className="feature-categories">
-      <h2>Break SubCategories</h2>
+      <h2>Body SubCategories</h2>
       <div className="categories-grid">
         {subcategories.map((category, index) => (
           <div key={index} className="category-card">

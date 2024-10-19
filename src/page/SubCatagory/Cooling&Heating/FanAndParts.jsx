@@ -1,41 +1,39 @@
 import React from 'react';
-import './Front Break Pads.css';
-
-
+import "../Break/FrontBreakPads/Front Break Pads.css"
 
 const BrakeParts = () => {
   const products = [
     {
-      name: 'Front Brake Pad Set',
+      name: 'Fan & Parts',
       price: '₹1,017.00',
       originalPrice: '₹1,287.00',
       discount: '21%',
-      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/2f78507.jpg',
-      link: 'http://localhost:5173/#/Front_Break_Pads_Price',
+      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/9b70bd1.jpg',
+      link: 'http://localhost:5173/#/CandH_FanAndPartsPrice',
     },
     {
-      name: 'Front Brake Pad Set',
+      name: 'Fan & Parts',
       price: '₹1,062.00',
       originalPrice: '₹1,295.00',
       discount: '18%',
-      link: 'http://localhost:5173/#/Front_Break_Pads_Price ',
-      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/2f78507.jpg',
+      link: 'http://localhost:5173/#/CandH_FanAndPartsPrice',
+      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/9b70bd1.jpg',
     },
     {
-      name: 'Front Brake Pad Set',
+      name: 'Fan & Parts',
       price: '₹1,124.00',
       originalPrice: '₹1,422.00',
       discount: '21%',
-      link: ' http://localhost:5173/#/Front_Break_Pads_Price',
-      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/2f78507.jpg',
+      link: 'http://localhost:5173/#/CandH_FanAndPartsPrice',
+      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/9b70bd1.jpg',
     },
     {
-      name: 'Front Brake Pad Set',
+      name: 'Fan & Parts',
       price: '₹1,229.00',
       originalPrice: '₹1,499.00',
       discount: '18%',
-      link: 'http://localhost:5173/#/Front_Break_Pads_Price ',
-      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/2f78507.jpg',
+      link: 'http://localhost:5173/#/CandH_FanAndPartsPrice',
+      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/9b70bd1.jpg',
     },
    
   ];
@@ -44,7 +42,7 @@ const BrakeParts = () => {
     
       
       <section className="products-section">
-        <h2>Front Break Pads</h2>
+        <h2>Fan & Parts</h2>
         <div className="products-grid">
           {products.map((product, index) => (
             <div key={index} className="product-card">

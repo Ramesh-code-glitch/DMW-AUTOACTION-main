@@ -1,8 +1,9 @@
 .product-section {
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.842);
+  background-color: rgba(231, 220, 220, 0.842); /* Updated background color */
   margin: 10%;
 }
+
 .product-section h2 {
   font-size: 40px;
   color: #000000;
@@ -23,6 +24,9 @@
   overflow: hidden;
   transition: transform 0.3s;
   border: 1px solid #000000;
+  width: 80%; /* Reduced width for product cards */
+  max-width: 300px; /* Optional: set a max width */
+  margin: 0 auto; /* Center align cards */
 }
 
 .product-card:hover {
@@ -30,7 +34,7 @@
 }
 
 .product-card img {
-  width: 50%;
+  width: 100%; /* Change to 100% to fill the card width */
   height: auto;
 }
 
@@ -60,8 +64,3 @@
   font-size: 14px;
   color: #00f;
 }
-
-
-
-
-

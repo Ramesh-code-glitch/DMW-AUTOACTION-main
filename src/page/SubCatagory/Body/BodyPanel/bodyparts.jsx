@@ -1,5 +1,5 @@
 import React from 'react';
-import './bodyparts.css';
+import "../../Break/FrontBreakPads/Front Break Pads.css";
 
 
 
@@ -30,12 +30,12 @@ const BrakeParts = () => {
       imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/ee25150.webp',
     },
     {
-      name: 'Support Frame',
+      name: 'Engine Cover',
       price: '₹1,229.00',
       originalPrice: '₹1,499.00',
       discount: '18%',
       link: ' ',
-      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/973aa93.jpg',
+      imageUrl: 'https://boodmo.com/media/cache/catalog_image/images/categories/aceebde.jpg',
     },
    
   ];
@@ -44,7 +44,7 @@ const BrakeParts = () => {
     
       
       <section className="products-section">
-        <h2>Front Break Pads</h2>
+        <h2>Body Panel Sets</h2>
         <div className="products-grid">
           {products.map((product, index) => (
             <div key={index} className="product-card">
